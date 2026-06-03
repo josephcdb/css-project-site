@@ -1,0 +1,21 @@
+@use "../utils/mixins" as *;
+
+.bio {
+  padding: 120px 0 1rem;
+
+  &__container {
+    @include container;
+    @include flex-center;
+    gap: 2rem;
+  }
+
+  &__image {
+    width: 180px;
+    border-radius: 50%;
+  }
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}

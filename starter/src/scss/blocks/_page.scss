@@ -1,0 +1,10 @@
+.page {
+  padding-top: 120px;
+  min-height: 80vh;
+
+  &__content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}

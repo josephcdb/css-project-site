@@ -1,0 +1,16 @@
+@use "./variables" as *;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin justify-content-space-between {
+  justify-content: space-between;
+}
+
+@mixin container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 2rem;
+}

@@ -1,6 +1,12 @@
+@use "utils/variables" as *;
+@use "utils/mixins" as *;
+
+@use "base/resets";
 @use "base/base";
-@use "utils/variables";
-@use "utils/mixins";
+
 @use "blocks/header";
-@use "blocks/footer";
+@use "blocks/bio";
+@use "blocks/projects";
+@use "blocks/page";
 @use "blocks/buttons";
+@use "blocks/footer";

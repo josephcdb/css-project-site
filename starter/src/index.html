@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="../dist/main.css">
+  <title>Joseph Debao Chua Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
+  <link rel="stylesheet" href="../dist/main.css">
 </head>
 
 <body id="body">
-  <header class="header">
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="header__nav" aria-label="Main navigation">
+      <div class="header__logo">My Portfolio</div>
+      <button class="header__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M3 6h18M3 12h18M3 18h18"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+
+      <ul class="header__menu">
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/projects.html">Projects</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
+
+  <!-- Main -->
   <main id="main">
+    <!-- Bio Section -->
     <section id="bio" class="bio">
+      <div class="bio__container">
+        <img class="bio__image" src="https://api.dicebear.com/7.x/avataaars/svg?seed=joseph" alt="portrait">
+        <div class="bio__content">
+          <h1 class="bio__title">Joseph Debao Chua's Web Development Portfolio</h1>
+          <p class="bio__text">
+            I am a web developer passionate about building responsive and accessible websites using modern front-end technologies.
+          </p>
+        </div>
+      </div>
     </section>
-    <section id="latest-projects" class="latest-projects">
+
+    <!-- Projects -->
+    <section id="latest-projects" class="projects">
+      <h2 class="projects__title">Latest Projects</h2>
+      <div class="projects__grid">
+        <article class="card">
+          <img class="card__image" src="https://picsum.photos/400/250?random=1" alt="Project 1">
+          <h3 class="card__title">Project One</h3>
+          <p class="card__text">A responsive website built with HTML, SCSS, and JavaScript.</p>
+        </article>
+
+        <article class="card">
+          <img class="card__image" src="https://picsum.photos/400/250?random=2" alt="Project 2">
+          <h3 class="card__title">Project Two</h3>
+          <p class="card__text">An accessible UI design focusing on clean layout and usability.</p>
+        </article>
+
+        <article class="card">
+          <img class="card__image" src="https://picsum.photos/400/250?random=3" alt="Project 3">
+          <h3 class="card__title">Project Three</h3>
+          <p class="card__text">A mobile-first responsive portfolio project.</p>
+        </article>
+      </div>
+
+      <div class="projects__button-wrapper">
+        <a href="./pages/projects.html" class="btn btn--primary">View All Projects</a>
+      </div>
     </section>
   </main>
-  <footer class="footer">
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <p>&copy; Joseph Debao Chua 2026</p>
   </footer>
 </body>
-
 </html>

@@ -1,0 +1,41 @@
+@use "../utils/variables" as *;
+@use "../utils/mixins" as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:  $primary-color;
+  color: white;
+  z-index: 1000;
+
+  &__nav {
+    @include justify-content-space-between;
+    @include flex-center;
+    padding: 1rem 2rem;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  &__toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    &__menu {
+      display: none;
+    }
+
+    &__toggle {
+      display: block;
+    }
+  }
+}
