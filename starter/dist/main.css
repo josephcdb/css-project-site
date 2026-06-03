@@ -97,8 +97,6 @@ p {
 }
 .projects__button-wrapper {
   margin-top: 2rem;
-  display: flex;
-  align-items: center;
 }
 
 .card {
