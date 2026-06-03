@@ -95,7 +95,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
-.projects__button-wrapper {
+.projects__button--wrapper {
   margin-top: 2rem;
 }
 
