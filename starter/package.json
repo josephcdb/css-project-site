@@ -3,13 +3,17 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-        "less-watch-compile": "^2.1.0",
-        "sass": "^1.79.3"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "sass src/scss/main.scss dist/main.css",
+        "watch": "sass --watch src/scss/main.scss:dist/main.css"
     },
     "devDependencies": {
-        "less": "^4.2.0"
-    }
+        "sass": "^1.100.0"
+    },
+    "description": "This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
 }
