@@ -8,7 +8,7 @@ Demonstrate your proficiency with CSS methodologies, preprocessors, accessibilit
 2. Use cd starter
 3. Use npm run install to update the dependencies
 4. Use npm run watch --> It will compile src/scss/main.scss into dist/main.css
-5. Click index.html to open the browser
+5. Double-click index.html to open the browser
 
 ## Project Instructions
 1. **Starter Code**:
