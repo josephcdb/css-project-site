@@ -4,7 +4,7 @@ Build two key sections: an **Introduction banner** (featuring your photo and a s
 Demonstrate your proficiency with CSS methodologies, preprocessors, accessibility practices, and advanced CSS techniques, all while creating a polished addition to your portfolio.
 
 ## Instructions for Reviewers
-1. Download zip and uncompress the project folder
+1. Clone the repository
 2. Use cd starter
 3. Use npm run install to update the dependencies
 4. Use npm run watch --> It will compile src/scss/main.scss into dist/main.css
